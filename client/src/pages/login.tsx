@@ -144,14 +144,14 @@ export function LoginPage({ onSuccess }: LoginPageProps) {
         </Card>
         <div className="text-center mt-6">
           <p className="text-sm text-gray-600">
-            Have suggestions or feedback or input?{' '}
+          Be the hero we need: drop some feedback magic!{' '}
             <a
              href="https://docs.google.com/forms/d/e/1FAIpQLScdMhOUwFwhfOX6BJDfEsCvGbP4o6vXb7_OBD789soNUl7ffQ/viewform?usp=header"
              target="_blank"
              rel="noopener noreferrer"
              className="text-blue-600 underline hover:text-blue-800"
             >
-             Share your thoughts
+             Share your thoughts here.
             </a>
           </p>
         </div>
