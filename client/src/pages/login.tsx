@@ -143,16 +143,6 @@ export function LoginPage({ onSuccess }: LoginPageProps) {
                   This is a test app. You can sign in with any dummy email and password.
                 </p>
 
-                <Button
-                variant='outline'
-                className='w-full mt-4'
-                onClick={() => {
-                  // Replace with your actual sign-up logic or navigation window.location.href = '/signup';
-                }}
-                >
-                  New here? Create an account.
-                </Button>
-
 
               </form>
             </Form>
