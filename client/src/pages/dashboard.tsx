@@ -59,7 +59,7 @@ export function Dashboard() {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="flex flex-col lg:flex-row gap-6">
           {/* Job Application Form */}
-          <div className="w-full lg:w-1/3">
+          <div className="w-full lg:w-[30%]">
             <JobForm
               onSuccess={(message) => showToast(message, 'success')}
               onError={(message) => showToast(message, 'error')}
@@ -67,7 +67,7 @@ export function Dashboard() {
           </div>
 
           {/* Job Applications Dashboard */}
-          <div className="w-full lg:w-2/3 overflow-x-auto">
+          <div className="w-full lg:w-[70%] overflow-x-auto">
             <JobTable
               onSuccess={(message) => showToast(message, 'success')}
               onError={(message) => showToast(message, 'error')}
