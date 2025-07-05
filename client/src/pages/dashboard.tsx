@@ -56,10 +56,10 @@ export function Dashboard() {
       </header>
 
       {/* Main Content */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="flex flex-col lg:flex-row gap-6">
+      <main className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <div className="flex flex-col lg:flex-row gap-6 w-full">
           {/* Job Application Form */}
-          <div className="w-full lg:w-[30%]">
+          <div className="w-full lg:max-w-sm flex-shrink-0">
             <JobForm
               onSuccess={(message) => showToast(message, 'success')}
               onError={(message) => showToast(message, 'error')}
@@ -67,7 +67,7 @@ export function Dashboard() {
           </div>
 
           {/* Job Applications Dashboard */}
-          <div className="w-full lg:w-[70%] overflow-x-auto">
+          <div className="w-full flex-grow overflow-x-auto">
             <JobTable
               onSuccess={(message) => showToast(message, 'success')}
               onError={(message) => showToast(message, 'error')}
