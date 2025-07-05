@@ -144,7 +144,7 @@ export function LoginPage({ onSuccess }: LoginPageProps) {
         </Card>
         <div className="text-center mt-6">
           <p className="text-sm text-gray-600">
-          Be the hero we need: drop some feedback magic!{' '}
+          Be the hero we need: drop some feedback magic!!{' '}
             <a
              href="https://docs.google.com/forms/d/e/1FAIpQLScdMhOUwFwhfOX6BJDfEsCvGbP4o6vXb7_OBD789soNUl7ffQ/viewform?usp=header"
              target="_blank"
