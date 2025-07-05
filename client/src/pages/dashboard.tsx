@@ -56,16 +56,15 @@ export function Dashboard() {
       </header>
 
       {/* Main Content */}
-      <main className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="flex flex-col lg:flex-row gap-6 w-full">
-          {/* Job Application Form */}
-          <div className="w-full lg:max-w-sm flex-shrink-0">
+      <main className="w-full px-6 py-8">
+        <div className="flex flex-col lg:flex-row w-full gap-6">
+          {/* Form Panel - Fixed Width Left */}
+          <div className="w-full lg:w-[320px]">
             <JobForm
               onSuccess={(message) => showToast(message, 'success')}
               onError={(message) => showToast(message, 'error')}
             />
           </div>
-
           {/* Job Applications Dashboard */}
           <div className="w-full flex-grow overflow-x-auto">
             <JobTable
